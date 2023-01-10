@@ -11,10 +11,6 @@ const onGenerateSubmit = (e) => {
     alert('Please enter a URL');
   }  else {
     showSpinner();
-
-    setTimeout(() => {
-      hideSpinner();
-    },1000);
   }
 };
 
